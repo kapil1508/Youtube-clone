@@ -1,0 +1,40 @@
+.thumbnail1{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.thumbnaildiv1{
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 17px;
+    right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 3px;
+}
+.title1,.title2{margin-top: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.channel1,.channel2{
+    width: 36px;
+    border-radius: 50px;
+}
+.vidgriddiv1,.vidgriddiv2{
+    display: grid;
+     grid-template-columns: 50px 1fr;
+}
+.layoutgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+
+}
